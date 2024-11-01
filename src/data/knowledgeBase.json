@@ -1,0 +1,250 @@
+{
+  "faq": [
+    {
+      "question": "What are your business hours?",
+      "answer": "Our support team is available Monday through Friday, 9:00 AM to 5:00 PM AEST (Australian Eastern Standard Time). Our AI chatbots provide 24/7 automated assistance, and you can always reach us via email at support@marvi.ai for urgent matters outside business hours."
+    },
+    {
+      "question": "How do I get started with Marvi.ai?",
+      "answer": "Schedule a consultation with us for setup and training. We'll assess your needs and create a tailored implementation plan."
+    },
+    {
+      "question": "Can Marvi.ai integrate with my existing systems?",
+      "answer": "Yes, Marvi.ai is compatible with CRM, ERP, and various business systems. Our solutions are designed for seamless integration."
+    },
+    {
+      "question": "How does Marvi.ai ensure data security?",
+      "answer": "We guarantee GDPR-compliant encryption and maintain strict security protocols to protect your data."
+    },
+    {
+      "question": "What kind of support does Marvi.ai offer?",
+      "answer": "We provide comprehensive support including full implementation, staff training, and ongoing maintenance."
+    },
+    {
+      "question": "Can Marvi.ai's solutions be customised?",
+      "answer": "Yes, our solutions are fully customisable and tailored to meet your specific business needs and requirements."
+    },
+    {
+      "question": "What are your pricing plans?",
+      "answer": "For detailed information about our pricing plans and packages, please contact our sales team at sales@marvi.ai. We offer customized solutions tailored to your business needs and scale."
+    }
+  ],
+  "products": [
+    {
+      "name": "Chatbot Development",
+      "description": "Customisable chatbots for customer support, lead generation, and product recommendations.",
+      "features": [
+        "24/7 Customer Support",
+        "Lead Generation & Qualification",
+        "Product Recommendations",
+        "Multi-language Support",
+        "Voice Bot Integration",
+        "Custom Chatbot Design"
+      ]
+    },
+    {
+      "name": "Workflow Automations",
+      "description": "Comprehensive automation tools for streamlining business processes.",
+      "features": [
+        "Social Media Management",
+        "CRM Integration",
+        "Onboarding Automation",
+        "Data Processing",
+        "Task Scheduling",
+        "Document Management"
+      ]
+    },
+    {
+      "name": "Machine Learning Solutions",
+      "description": "Advanced ML models for business optimisation and risk management.",
+      "features": [
+        "Predictive Maintenance",
+        "Fraud Detection",
+        "Inventory Management",
+        "Customer Churn Prevention",
+        "Sales Forecasting",
+        "Risk Assessment"
+      ]
+    }
+  ],
+  "customerService": {
+    "guidelines": [
+      {
+        "title": "Personalisation",
+        "points": [
+          "Address customers by name",
+          "Understand specific business needs",
+          "Provide tailored solutions"
+        ]
+      },
+      {
+        "title": "Active Listening",
+        "points": [
+          "Listen attentively to customer needs",
+          "Confirm understanding of requirements",
+          "Ask clarifying questions"
+        ]
+      },
+      {
+        "title": "Product Knowledge",
+        "points": [
+          "Maintain expertise in Marvi.ai features",
+          "Stay updated with latest developments",
+          "Provide accurate technical information"
+        ]
+      },
+      {
+        "title": "Empathy & Patience",
+        "points": [
+          "Show understanding of customer challenges",
+          "Support those new to AI technology",
+          "Maintain professional composure"
+        ]
+      },
+      {
+        "title": "Clear Communication",
+        "points": [
+          "Avoid technical jargon",
+          "Use simple, clear language",
+          "Provide step-by-step guidance"
+        ]
+      },
+      {
+        "title": "Follow-Up",
+        "points": [
+          "Monitor issue resolution",
+          "Verify customer satisfaction",
+          "Maintain communication"
+        ]
+      }
+    ]
+  },
+  "services": [
+    {
+      "name": "Consulting Services",
+      "description": "Expert guidance for AI implementation",
+      "features": [
+        "AI Readiness Assessment",
+        "Strategy Development",
+        "Implementation Planning",
+        "ROI Analysis"
+      ]
+    },
+    {
+      "name": "Custom Solutions",
+      "description": "Tailored AI tools for specific business needs",
+      "features": [
+        "Custom Chatbot Development",
+        "Industry-Specific Tools",
+        "Workflow Customisation",
+        "Integration Services"
+      ]
+    },
+    {
+      "name": "Automation Services",
+      "description": "Comprehensive business process automation",
+      "features": [
+        "CRM Integration",
+        "Process Streamlining",
+        "Workflow Optimisation",
+        "System Integration"
+      ]
+    },
+    {
+      "name": "Support Services",
+      "description": "Ongoing assistance and maintenance",
+      "features": [
+        "Staff Training",
+        "Technical Support",
+        "System Maintenance",
+        "Performance Monitoring"
+      ]
+    }
+  ],
+  "coreFeatures": [
+    {
+      "name": "AI Chatbots",
+      "description": "Customisable chatbots for support, leads, and recommendations with multi-language support"
+    },
+    {
+      "name": "Workflow Automation",
+      "description": "Streamlined automation for social media, CRM, and data management processes"
+    },
+    {
+      "name": "Machine Learning",
+      "description": "Advanced ML models for predictive maintenance, churn prevention, and fraud detection"
+    },
+    {
+      "name": "Security",
+      "description": "GDPR-compliant security infrastructure ensuring data protection"
+    }
+  ],
+  "paymentMethods": [
+    {
+      "type": "Credit/Debit Cards",
+      "accepted": true
+    },
+    {
+      "type": "Bank Transfers",
+      "accepted": true
+    }
+  ],
+  "troubleshooting": [
+    {
+      "issue": "Chatbot not responding",
+      "steps": [
+        "Check your internet connection",
+        "Clear your browser cache",
+        "Try a different browser",
+        "Contact support if issue persists"
+      ]
+    },
+    {
+      "issue": "Integration problems",
+      "steps": [
+        "Verify system compatibility",
+        "Check API credentials",
+        "Review integration documentation",
+        "Contact technical support"
+      ]
+    }
+  ],
+  "supportPolicies": [
+    {
+      "title": "Business Hours",
+      "description": "Our support team is available Monday through Friday, 9:00 AM to 5:00 PM AEST (Sydney, Australia). For urgent matters outside these hours, please email support@marvi.ai."
+    },
+    {
+      "title": "Response Time",
+      "description": "We aim to respond to all enquiries within 24 hours during business days."
+    },
+    {
+      "title": "Implementation Support",
+      "description": "Full support during implementation including setup, training, and system integration."
+    },
+    {
+      "title": "Ongoing Maintenance",
+      "description": "Regular system updates and maintenance to ensure optimal performance."
+    },
+    {
+      "title": "Data Protection",
+      "description": "GDPR-compliant data handling and storage with regular security audits."
+    }
+  ],
+  "companyInfo": {
+    "location": {
+      "city": "Sydney",
+      "country": "Australia",
+      "timezone": "AEST (UTC+10)"
+    },
+    "businessHours": {
+      "weekdays": "Monday - Friday: 9:00 AM - 5:00 PM AEST",
+      "weekend": "Closed",
+      "support": {
+        "email": "support@marvi.ai",
+        "availability": "24/7 for automated assistance",
+        "urgent": "Email support@marvi.ai for urgent matters outside business hours"
+      }
+    }
+  }
+}

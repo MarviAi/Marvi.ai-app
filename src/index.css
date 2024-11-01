@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-text bg-background;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-accent px-6 py-3 rounded font-semibold transition-opacity hover:opacity-90;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-primary px-6 py-3 rounded font-semibold transition-opacity hover:opacity-90;
+  }
+
+  .btn-gray {
+    @apply bg-gray-800 text-accent px-6 py-3 rounded font-semibold transition-opacity hover:opacity-90;
+  }
+
+  .input-field {
+    @apply bg-white border border-secondary rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-accent;
+  }
+}
+
+@layer utilities {
+  .container-custom {
+    @apply container mx-auto px-6 sm:px-8 md:px-12 lg:px-16 max-w-7xl;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+
+  .animate-blink {
+    animation: blink 0.7s infinite;
+  }
+
+  @keyframes chatbotGrow {
+    0% { transform: scale(0); }
+    70% { transform: scale(1.1); }
+    85% { transform: scale(0.95); }
+    100% { transform: scale(1); }
+  }
+
+  .animate-chatbot-grow {
+    animation: chatbotGrow 0.5s ease-out forwards;
+  }
+
+  @keyframes logoGrow {
+    0% { transform: scale(0.5); opacity: 0; }
+    60% { transform: scale(1.1); opacity: 1; }
+    80% { transform: scale(0.95); }
+    100% { transform: scale(1); }
+  }
+
+  .animate-logo-grow {
+    animation: logoGrow 0.5s ease-out forwards;
+  }
+}
+
+/* Custom styles for the hero title */
+.text-hero-title {
+  font-size: 3rem;
+  line-height: 1.2;
+  @apply leading-tight;
+}
+
+@media (max-width: 640px) {
+  .text-hero-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-hero-title {
+    font-size: 2rem;
+  }
+}
+
+/* Adjust font weights for Ubuntu */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-medium;
+}
+
+strong {
+  @apply font-bold;
+}
+
+/* Typewriter Effect Styles */
+.typewriter-word {
+  display: inline-block;
+  vertical-align: bottom;
+  min-width: 1ch;
+}
+
+/* Chat Widget Mobile Styles */
+@media (max-width: 767px) {
+  .chat-widget {
+    height: 64vh !important; /* 80% of 80vh */
+    max-height: 480px !important; /* 80% of 600px */
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .animate-chatbot-grow,
+  .animate-logo-grow {
+    animation: none;
+  }
+}
+
+/* Ensure all sections are visible */
+section {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
